@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+nav {
+  background-color: #ffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  color: #ff5a5f;
+}
+nav img {
+  height: 25.351787567138672px;
+  width: 81.99641418457031px;
+  margin-left: 2%;
+}
+.Herobox {
+  padding: 4%;
+}
+.imagebox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagebox img {
+  height: 232px;
+  width: 395.906494140625px;
+  border-radius: 8.949999809265137px;
+}
+.Herobox h1 {
+  position: absolute;
+  width: 347px;
+  height: 40px;
+  left: 36px;
+  top: 360px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+
+  /* identical to box height, or 40px */
+
+  color: #000000;
+}
+.Herobox p {
+  position: absolute;
+  width: 320px;
+  height: 56px;
+  left: 36px;
+  top: 416px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  color: #222222;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto; /* ADD */
+  display: flex; /* ADD */
+  flex-direction: column; /* ADD */
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+/* ADD */
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 14px;
+}
+
+/* ADD */
+.card--price {
+  margin-top: auto;
+}
+
+section {
+  padding: 20px;
+  margin-top: 169px;
+}
+.card-badge {
+  position: relative;
+  z-index: 400;
+  top: 25px;
+  left: -14px;
+  width: 40%;
+  border-radius: 12px;
+  background-color: tomato;
+  padding: 7px 9px;
+  font-weight: bold;
+}
